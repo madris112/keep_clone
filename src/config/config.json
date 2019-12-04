@@ -8,3 +8,27 @@
     "appId": "1:1014468101649:web:88e6fbf136528df93f53b0",
     "measurementId": "G-CDWKKN0WS0"
 }
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAUxJotosRgeCjYi1iiBPE-BJ2RTFAw7bc",
+    authDomain: "keep-madris.firebaseapp.com",
+    databaseURL: "https://keep-madris.firebaseio.com",
+    projectId: "keep-madris",
+    storageBucket: "keep-madris.appspot.com",
+    messagingSenderId: "559094201480",
+    appId: "1:559094201480:web:4376fbb80f49d2f8c1333d",
+    measurementId: "G-RTZDX3Z8SM"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
